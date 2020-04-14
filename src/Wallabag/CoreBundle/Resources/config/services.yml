@@ -4,6 +4,7 @@ services:
         arguments:
             - "@security.token_storage"
             - "%wallabag_core.theme%"
+            - "%liip_theme.themes%"
 
     # custom form type
     wallabag_core.form.type.config:
